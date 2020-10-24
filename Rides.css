@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('/Images/motorcycle-1269978_960_720.jpg');
+    background-repeat: no-repeat;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    /* border: 2px solid red;   */
+}
+.left img{
+    /* filter: invert(100%); */
+    margin-top: -45px;
+    width: 150px;
+    height: 150px;
+    opacity: 1;
+}
+.left img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.mid{
+    display: block;
+    width: 45%;
+    margin: 2px auto;
+    /* border: 2px solid red;  */
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    /* border: 2px solid red;    */
+}
+.navbar{
+    margin-top: auto;
+}
+.mid .navbar li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.mid .navbar li a{
+    color: rgb(129, 44, 44);
+    text-decoration: none;
+}
+.mid .navbar li a:hover, .mid .navbar li a.active{
+    color: rgb(247, 88, 88);
+    text-decoration: underline;
+}
+.right{
+    top: 5px;
+}
+.right .btn{
+    font-family: 'Baloo Bhaina 2', cursive;
+    color: rgb(129, 44, 44);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0px 15px;
+    margin: 0px 5px;
+    background-color: white;
+    border-radius: 15px;
+    border: none;
+}
+.right .btn:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(247, 88, 88);
+}
+.container{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    right: 100px;
+    top: 20%;
+    padding: 25px 45px;
+    box-sizing: border-box;
+    font-weight: 600;
+}
+.container h2{
+    text-align: center;
+}
+.container span{
+    color:  rgb(247, 88, 88);
+}
+.container input{
+    position: relative;
+    left: 10px;
+    width: 265px;
+    margin-bottom: 5px;
+    font-size: 15px
+}
+.form-group #name{
+    left: 50px;
+}
+.form-group #email{
+    left: 54px;
+}
+.form-group #pass{
+    left: 18px;
+}
+.form-group label{
+    font-size: 20px;
+}
+.form-btn input{
+    display: inline-block;
+    width: 40%;
+    padding: 0;
+    margin-left: 22px;
+    margin-top: 15px;
+    background-color: rgb(238, 80, 80);     
+    font-size: 20px;
+}
+.form-btn input:hover{
+    background-color: rgb(247, 88, 88);
+    color: rgb(255, 255, 255);
+}
